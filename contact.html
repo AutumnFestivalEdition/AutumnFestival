@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Autumn Festival 2026 – Contact</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script defer src="assets/site.js"></script>
+</head>
+<body>
+<header>
+  <div class="container"><div class="nav">
+    <a class="brand" href="index.html"><img class="logo" data-logo alt="Autumn Festival logo" /><div><strong>Autumn Festival</strong><span>Fusion gourmandes • Vibes Afro Suisse</span></div></a>
+    <nav class="navlinks">
+      <a data-nav="home" href="index.html" data-i18n="nav.home">Accueil</a>
+      <a data-nav="programme" href="programme.html" data-i18n="nav.programme">Programme</a>
+      <a data-nav="food" href="food.html" data-i18n="nav.food">Food</a>
+      <a data-nav="artists" href="artistes.html" data-i18n="nav.artists">Artistes</a>
+      <a data-nav="sponsors" href="sponsors.html" data-i18n="nav.sponsors">Sponsors</a>
+      <a data-nav="gallery" href="galerie.html" data-i18n="nav.gallery">Galerie</a>
+      <a data-nav="contact" href="contact.html" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="actions"><button id="langBtn" class="btn" type="button">EN</button><a class="btn primary" href="sponsors.html" data-i18n="ctaSponsor">Devenir sponsor</a></div>
+  </div></div>
+</header>
+
+<main>
+  <div class="container">
+    <div class="card pageHead">
+      <div class="kicker" data-i18n="commonKicker"></div>
+      <h1>Contact</h1>
+      <p class="subtitle">Sponsoring, stands, artistes, bénévolat, infos pratiques.</p>
+    </div>
+
+    <div style="height:14px"></div>
+
+    <div class="grid2">
+      <div class="card contact">
+        <form id="contactForm">
+          <div class="field">
+            <label for="name">Nom</label>
+            <input id="name" name="name" type="text" required placeholder="Nom" />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required placeholder="Email" />
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Message"></textarea>
+          </div>
+          <button class="btn primary" type="submit">Envoyer</button>
+        </form>
+      </div>
+
+      <div class="card tile">
+        <div class="icon">📍</div>
+        <h3>Infos pratiques</h3>
+        <p style="margin:0; color:var(--muted); line-height:1.6">
+          <b>Lieu :</b> Salle polyvalente de Montoly, 1196 Gland<br/>
+          <b>Date :</b> 5 septembre 2026<br/>
+          <b>Horaires :</b> 10:00 → 02:00<br/>
+          <b>Contact :</b> <a href="mailto:stephane.ducret@me.com">stephane.ducret@me.com</a> • <a href="tel:+41782088802">+41 78 208 88 02</a>
+        </p>
+
+        <div style="height:12px"></div>
+        <div class="social">
+          <a href="#" title="Instagram">Instagram</a>
+          <a href="#" title="Facebook">Facebook</a>
+        </div>
+
+        <div style="height:14px"></div>
+        <div class="kicker" style="width:max-content">À faire</div>
+        <p style="margin:10px 0 0; color:var(--muted); line-height:1.6">
+          Remplace les liens Instagram/Facebook par les tiens.
+        </p>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container"><div class="foot">
+    <div style="display:flex; align-items:center; gap:10px"><img data-logo alt="Autumn Festival" style="width:36px; height:36px; object-fit:contain" />
+      <div><div style="font-weight:800; color:rgba(31,41,55,.85)">Autumn Festival</div><div style="font-size:13px" data-i18n="footer"></div></div>
+    </div>
+    <div class="social"><a href="sponsors.html" data-i18n="nav.sponsors">Sponsors</a></div>
+  </div></div>
+</footer>
+</body>
+</html>
